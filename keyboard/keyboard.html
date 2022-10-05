@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Keyboard</title>
+    <link rel="shortcut icon" href="#" />
+    <link rel="stylesheet" href="keyboard.css" />
+  </head>
+  <body>
+    <h1>Keyboard</h1>
+    <div class="nowplaying"></div>
+    <div class="piano">
+      <div data-note="c3" class="key white">
+        <p>C3</p>
+        <h3 class="q">q</h3>
+      </div>
+      <div data-note="c3#" class="key black">
+        <p>C3#</p>
+        <h3 class="w">w</h3>
+      </div>
+      <div data-note="d3" class="key white">
+        <p>D3</p>
+        <h3 class="e">e</h3>
+      </div>
+      <div data-note="d3#" class="key black">
+        <p>D3#</p>
+        <h3 class="r">r</h3>
+      </div>
+      <div data-note="e3" class="key white">
+        <p>E3</p>
+        <h3 class="t">t</h3>
+      </div>
+      <div data-note="f3" class="key white">
+        <p>F3</p>
+        <h3 class="y">y</h3>
+      </div>
+      <div data-note="f3#" class="key black">
+        <p>F3#</p>
+        <h3 class="u">u</h3>
+      </div>
+      <div data-note="g3" class="key white">
+        <p>G3</p>
+        <h3 class="i">i</h3>
+      </div>
+      <div data-note="g3#" class="key black">
+        <p>G3#</p>
+        <h3 class="o">o</h3>
+      </div>
+      <div data-note="a3" class="key white">
+        <p>A3</p>
+        <h3 class="p">p</h3>
+      </div>
+      <div data-note="a3#" class="key black">
+        <p>A3#</p>
+        <h3 class="num1">1</h3>
+      </div>
+      <div data-note="b3" class="key white">
+        <p>B3</p>
+        <h3 class="num2">2</h3>
+      </div>
+      <div data-note="c4" class="key white">
+        <p>C4</p>
+        <h3 class="a">a</h3>
+      </div>
+      <div data-note="c4#" class="key black">
+        <p>C4#</p>
+        <h3 class="s">s</h3>
+      </div>
+      <div data-note="d4" class="key white">
+        <p>D4</p>
+        <h3 class="d">d</h3>
+      </div>
+      <div data-note="d4#" class="key black">
+        <p>D4#</p>
+        <h3 class="f">f</h3>
+      </div>
+      <div data-note="e4" class="key white">
+        <p>E4</p>
+        <h3 class="g">g</h3>
+      </div>
+      <div data-note="f4" class="key white">
+        <p>F4</p>
+        <h3 class="h">h</h3>
+      </div>
+      <div data-note="f4#" class="key black">
+        <p>F4#</p>
+        <h3 class="j">j</h3>
+      </div>
+      <div data-note="g4" class="key white">
+        <p>G4</p>
+        <h3 class="k">k</h3>
+      </div>
+      <div data-note="g4#" class="key black">
+        <p>G4#</p>
+        <h3 class="l">l</h3>
+      </div>
+      <div data-note="a4" class="key white">
+        <p>A4</p>
+        <h3 class="num3">3</h3>
+      </div>
+      <div data-note="a4#" class="key black">
+        <p>A4#</p>
+        <h3 class="num4">4</h3>
+      </div>
+      <div data-note="b4" class="key white">
+        <p>B4</p>
+        <h3 class="z">z</h3>
+      </div>
+      <div data-note="c5" class="key white">
+        <p>C5</p>
+        <h3 class="x">x</h3>
+      </div>
+      <div data-note="c5#" class="key black">
+        <p>C5#</p>
+        <h3 class="c">c</h3>
+      </div>
+      <div data-note="d5" class="key white">
+        <p>D5</p>
+        <h3 class="v">v</h3>
+      </div>
+      <div data-note="d5#" class="key black">
+        <p>D5#</p>
+        <h3 class="b">b</h3>
+      </div>
+      <div data-note="e5" class="key white">
+        <p>E5</p>
+        <h3 class="n">n</h3>
+      </div>
+      <div data-note="f5" class="key white">
+        <p>F5</p>
+        <h3 class="m">m</h3>
+      </div>
+      <div data-note="f5#" class="key black">
+        <p>F5#</p>
+        <h3 class="num5">5</h3>
+      </div>
+      <div data-note="g5" class="key white">
+        <p>G5</p>
+        <h3 class="num8">8</h3>
+      </div>
+      <div data-note="g5#" class="key black">
+        <p>G5#</p>
+        <h3 class="num6">6</h3>
+      </div>
+      <div data-note="a5" class="key white">
+        <p>A5</p>
+        <h3 class="Control">Control</h3>
+      </div>
+      <div data-note="a5#" class="key black">
+        <p>A5#</p>
+        <h3 class="num7">7</h3>
+      </div>
+      <div data-note="b5" class="key white">
+        <p>B5</p>
+        <h3 class="Shift">Shift</h3>
+      </div>
+    </div>
+
+    <audio id="c3" src="notes/c3.mp3"></audio>
+    <audio id="c3#" src="notes/c-3.mp3"></audio>
+    <audio id="d3" src="notes/d3.mp3"></audio>
+    <audio id="d3#" src="notes/d-3.mp3"></audio>
+    <audio id="e3" src="notes/e3.mp3"></audio>
+    <audio id="f3" src="notes/f3.mp3"></audio>
+    <audio id="f3#" src="notes/f-3.mp3"></audio>
+    <audio id="g3" src="notes/g3.mp3"></audio>
+    <audio id="g3#" src="notes/g-3.mp3"></audio>
+    <audio id="a3" src="notes/a3.mp3"></audio>
+    <audio id="a3#" src="notes/a-3.mp3"></audio>
+    <audio id="b3" src="notes/b3.mp3"></audio>
+    <audio id="c4" src="notes/c4.mp3"></audio>
+    <audio id="c4#" src="notes/c-4.mp3"></audio>
+    <audio id="d4" src="notes/d4.mp3"></audio>
+    <audio id="d4#" src="notes/d-4.mp3"></audio>
+    <audio id="e4" src="notes/e4.mp3"></audio>
+    <audio id="f4" src="notes/f4.mp3"></audio>
+    <audio id="f4#" src="notes/f-4.mp3"></audio>
+    <audio id="g4" src="notes/g4.mp3"></audio>
+    <audio id="g4#" src="notes/g-4.mp3"></audio>
+    <audio id="a4" src="notes/a4.mp3"></audio>
+    <audio id="a4#" src="notes/a-4.mp3"></audio>
+    <audio id="b4" src="notes/b4.mp3"></audio>
+    <audio id="c5" src="notes/c5.mp3"></audio>
+    <audio id="c5#" src="notes/c-5.mp3"></audio>
+    <audio id="d5" src="notes/d5.mp3"></audio>
+    <audio id="d5#" src="notes/d-5.mp3"></audio>
+    <audio id="e5" src="notes/e5.mp3"></audio>
+    <audio id="f5" src="notes/f5.mp3"></audio>
+    <audio id="f5#" src="notes/f-5.mp3"></audio>
+    <audio id="g5" src="notes/g5.mp3"></audio>
+    <audio id="g5#" src="notes/g-5.mp3"></audio>
+    <audio id="a5" src="notes/a5.mp3"></audio>
+    <audio id="a5#" src="notes/a-5.mp3"></audio>
+    <audio id="b5" src="notes/b5.mp3"></audio>
+    <script src="keyboard.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+:root{
+    --width:70px
+}
+
+*, ::after, ::before{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background-color: #283149
+}
+h1{
+    font-size: 7rem;
+    margin-top: 1rem;
+      color: #DBEDF3;
+      text-shadow: 3px 3px  #DA0463;
+width: 500px;margin: auto;
+  }
+
+  h2{
+    font-size: 7rem;
+    margin-top: 3rem;
+      color: #DBEDF3;
+      text-shadow: 3px 3px  #DA0463;
+width: 500px;margin: auto;
+
+  }
+.piano{
+    /* padding: 400px; */
+    display: flex;
+
+    position: relative;
+    top: 30px;
+
+    width: 1500px;
+    margin: auto;
+
+}
+.nowplaying {
+    font-size: 120px;
+    line-height: 1;
+    color: #eee;
+    text-shadow: 0 0 5rem #028ae9;
+    transition: all .07s ease;
+    min-height: 120px;
+    width: 100px;
+    margin: 60px auto 0 auto
+  }
+.white{
+    width: var(--width);
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+    border: 5px solid black;
+    text-align: center;
+    align-items: center;
+}
+.black{
+    text-align: center;
+    padding-top: 30px;
+
+    margin-left: -17.5px;
+    margin-right: -17.5px;
+    z-index: 2;
+    width: 35px;
+    height: 250px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+.white > p{
+    margin-top: 150px;
+}
+.playing {
+    transform: scale(.95);
+    border-color: #028ae9;
+    box-shadow: 0 0 1rem #028ae9;
+  }
