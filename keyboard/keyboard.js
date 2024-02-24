@@ -8,7 +8,7 @@ for (let index = 0; index < tiles.length; index++) {
   });
 }
 document.addEventListener("keydown", (e) => {
-  console.log(e.key);
+  // console.log(e.key);
   try {
     if (isNaN(e.key)) {
       const element = document.querySelector(`.${e.key}`).textContent;
